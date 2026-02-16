@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/" class="header-logo" aria-label="На главную">
+  <NuxtLink to="/public" class="header-logo" aria-label="На главную">
     <span class="header-logo__icon" />
   </NuxtLink>
 </template>

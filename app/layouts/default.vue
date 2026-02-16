@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <div class="layout__inner">
-      <AppHeader />
+      <HeaderAppHeader />
       <main class="layout__main">
         <slot />
       </main>

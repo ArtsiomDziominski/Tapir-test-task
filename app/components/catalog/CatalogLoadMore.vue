@@ -40,7 +40,7 @@ defineEmits<{
 .catalog-load-more {
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  padding: 0 0 100px 0;
 
   &__button {
     padding: 12px 32px;

@@ -1,75 +1,34 @@
-# Nuxt Minimal Starter
+# Tapir Test Task
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Тестовое задание — каталог товаров на Nuxt 4 + TypeScript.
 
-## Setup
-
-Make sure to install dependencies:
+## Установка
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Переменные окружения
 
-Start the development server on `http://localhost:3000`:
+Скопируйте `.env.example` в `.env`:
 
 ```bash
-# npm
+cp .env.example .env
+```
+
+| Переменная | Описание | По умолчанию |
+|---|---|---|
+| `NUXT_PUBLIC_API_BASE` | Базовый URL API | `https://test-task-api.tapir.ws` |
+
+## Запуск
+
+```bash
+# Режим разработки
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Сборка для продакшена
 npm run build
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
+# Предпросмотр продакшен-сборки
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

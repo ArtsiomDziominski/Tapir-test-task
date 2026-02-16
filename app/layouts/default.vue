@@ -1,9 +1,12 @@
 <template>
   <div class="layout">
-    <AppHeader />
-    <main class="layout__main">
-      <slot />
-    </main>
+    <div class="layout__inner">
+      <AppHeader />
+      <main class="layout__main">
+        <slot />
+      </main>
+    </div>
+    <AppFooter />
   </div>
 </template>
 
@@ -11,9 +14,16 @@
 .layout {
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
   min-height: 100vh;
-  margin: 0 auto;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
 
   &__main {
     flex: 1;

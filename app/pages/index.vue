@@ -1,3 +1,12 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Tapir — интернет-магазин кроссовок',
+  description: 'Каталог кроссовок Nike, Adidas, Puma, New Balance и других брендов. Доставка по всей России.',
+  ogTitle: 'Tapir — интернет-магазин кроссовок',
+  ogDescription: 'Каталог кроссовок Nike, Adidas, Puma, New Balance и других брендов.',
+})
+</script>
+
 <template>
   <section class="hero">
     <div class="hero__container">

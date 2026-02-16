@@ -17,6 +17,13 @@
 <script setup lang="ts">
 import type { Product, ProductsResponse } from '~/types/product'
 
+useSeoMeta({
+  title: 'Каталог — Tapir',
+  description: 'Каталог кроссовок: Nike, Adidas, Puma, New Balance и другие бренды.',
+  ogTitle: 'Каталог — Tapir',
+  ogDescription: 'Каталог кроссовок: Nike, Adidas, Puma, New Balance и другие бренды.',
+})
+
 const { apiBase } = useRuntimeConfig().public
 const API_URL = `${apiBase}/products`
 

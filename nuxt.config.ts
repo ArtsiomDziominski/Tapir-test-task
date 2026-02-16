@@ -11,6 +11,18 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'ru',
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      title: 'Tapir — интернет-магазин кроссовок',
+      meta: [
+        { name: 'description', content: 'Каталог кроссовок Nike, Adidas, Puma, New Balance и других брендов. Доставка по всей России.' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'Tapir — интернет-магазин кроссовок' },
+        { property: 'og:description', content: 'Каталог кроссовок Nike, Adidas, Puma, New Balance и других брендов.' },
+      ],
       link: [
         {
           rel: 'preconnect',

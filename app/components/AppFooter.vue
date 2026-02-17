@@ -46,7 +46,7 @@ const sections: FooterSection[] = [
   color: #fff;
 
   @media (max-width: 768px) {
-    padding: 32px 16px;
+    padding: 60px 20px;
   }
 
   &__container {
@@ -60,6 +60,8 @@ const sections: FooterSection[] = [
     @media (max-width: 768px) {
       grid-template-columns: 1fr;
       gap: 32px;
+      padding: 0;
+      margin: 0;
     }
   }
 
